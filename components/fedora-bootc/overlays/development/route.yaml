@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: fedora-bootc
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: fedora-bootc
+    app.kubernetes.io/part-of: fedora-bootc
+  name: fedora-bootct6br
+spec:
+  port:
+    targetPort: 8080
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: fedora-bootc
+    weight: 100
+status: {}
