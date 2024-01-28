@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/centos-bootc-tenant/fedora-bootc/fedora-bootc@sha256:8f306ffbd86d189e207e11b5f3ed32f88abb20b35a6c1cbcfde7572df5925d27
+      - image: quay.io/redhat-user-workloads/centos-bootc-tenant/fedora-bootc/fedora-bootc@sha256:8df58d5e7667e70caa328a2bd6f1105a7ea7e51ade631209016371b492cfd399
         name: container-image
         resources: {}
 status: {}
