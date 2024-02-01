@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: fedora-bootc
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/centos-bootc-tenant/fedora-bootc/fedora-bootc@sha256:24b6b40cc5ac8a58ec88f73675b674bc2c7c3a7b84b81e479d4957d041045cd7
+      - image: quay.io/redhat-user-workloads/centos-bootc-tenant/fedora-bootc/fedora-bootc@sha256:8fa5d6696970496b0a815fe3752c8fdef016f7a7ec5243336d5d2f4dacfec484
         imagePullPolicy: Always
         name: container-image
         ports:
