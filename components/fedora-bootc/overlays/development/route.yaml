@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: fedora-bootc
     app.kubernetes.io/part-of: fedora-bootc
-  name: fedora-bootct6br
+  name: fedora-bootcpyno
 spec:
   port:
     targetPort: 8080
